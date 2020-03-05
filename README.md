@@ -1,6 +1,6 @@
-# Movies and Series Website
+# Movie Time
 
-Flask application
+Movies and series recommendation website
 
 ## Created by
 
