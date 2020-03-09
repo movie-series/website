@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Page Title</title>
-</head>
+  <head>
+    <title>Movie Time</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+  </head>
 <body>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph  {{ movie }}.</p>
+<h1>Movie Time</h1>
+<p>Select genre:  {{ movie }}.</p>
 <p>Hej!</p>
 
 </body> 
