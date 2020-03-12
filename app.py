@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    movie = "Inception"
+    movie = ""
 
     return render_template("index.html", movie=movie)
 
