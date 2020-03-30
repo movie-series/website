@@ -5,9 +5,18 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
   </head>
  <body>
-
 <h1>Movie Time</h1>
 <p>Select genre:  {{ movie }}</p>
-
+<p><a href="https://www.imdb.com/chart/top/?ref_=nv_mv_250">Series</a></p>
+<div>Select genre:</div>
+<ul>
+  <li><input type="checkbox">Action</li>
+  <li><input type="checkbox">Comedy</li>
+  <li><input type="checkbox">Drama</li>
+  <li><input type="checkbox">Sci-fi</li>
+  <li><input type="checkbox">Horror</li>
+  <li><input type="checkbox">Thriller</li>
+  <li><input type="checkbox">Romance</li>
+</ul>
 </body> 
 </html>
