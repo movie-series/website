@@ -10,14 +10,17 @@
 <p><a href="https://www.imdb.com/chart/top/?ref_=nv_mv_250">Series</a></p>
 <div>Select genre:</div>
 <ul>
-  <li><input name="mycheckbox" type="checkbox">Action</li>
-  <li><input name="mycheckbox" type="checkbox">Comedy</li>
-  <li><input name="mycheckbox" type="checkbox">Drama</li>
-  <li><input name="mycheckbox" type="checkbox">Sci-fi</li>
-  <li><input name="mycheckbox" type="checkbox">Horror</li>
-  <li><input name="mycheckbox" type="checkbox">Thriller</li>
-  <li><input name="mycheckbox" type="checkbox">Romance</li>
-  <input type="search">
+  <form method="POST" action="/">
+    <li><input name="mycheckbox" value="1" type="checkbox">Action</li>
+    <li><input name="mycheckbox" value="2" type="checkbox">Comedy</li>
+    <li><input name="mycheckbox" value="3" type="checkbox">Drama</li>
+    <li><input name="mycheckbox" value="4" type="checkbox">Sci-fi</li>
+    <li><input name="mycheckbox" value="5" type="checkbox">Horror</li>
+    <li><input name="mycheckbox" value="6" type="checkbox">Thriller</li>
+    <li><input name="mycheckbox" value="7" type="checkbox">Romance</li>
+    <input type="submit" value="search :(">
+  </form>
 </ul>
+{{ test }}
 </body> 
 </html>

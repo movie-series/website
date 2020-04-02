@@ -5,7 +5,8 @@ app = Flask(__name__)
 def index():
     if request.method == 'POST':
         print(request.form.get("mycheckbox"))
-        return 'jäs'
+        return render_template('index.html', test='jäs')
+
     return render_template('index.html')
 
 
