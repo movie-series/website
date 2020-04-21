@@ -2,6 +2,8 @@
 
 Movies and series recommendation website
 
+We wrote this website using Python, HTML, CSS and Flask. 
+
 ## Created by
 
 * [Adam Younes](https://github.com/AdamYounes)

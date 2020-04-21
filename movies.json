@@ -3,84 +3,84 @@
         {
             "title": "The Fugitive",
             "link": "https://www.imdb.com/title/tt0106977/?ref_=nv_sr_srsg_0",
-            "IMDB rating": "7,8"
+            "rating": 7.8
         },
         {
             "title": "Gladiator",
             "link": "https://www.imdb.com/title/tt0172495/?ref_=adv_li_tt",
-            "IMDB rating": "8,5"
+            "rating": 8.5
         }
     ],
     "comedy": [
         {
             "title": "Once upon a time in Hollywood",
             "link": "https://www.imdb.com/title/tt7131622/?ref_=nv_sr_srsg_0",
-            "IMDB rating": "7,7"
+            "rating": 7.7
         },
         {
             "title": "Dazed and Confused",
             "link": "https://www.imdb.com/title/tt0106677/?ref_=adv_li_tt",
-            "IMDB rating": "7,6" 
+            "rating": 7.6 
         }
     ],
-    "Drama": [
+    "drama": [
         {
             "title": "Good Will Hunting",
             "link": "https://www.imdb.com/title/tt0119217/?ref_=nv_sr_srsg_0",
-            "IMDB rating": "8,3"
+            "rating": 8.3
         },
         {
             "title": "Prisoners",
             "link": "https://www.imdb.com/title/tt1392214/?ref_=adv_li_tt",
-            "IMDB rating": "8,1"
+            "rating": 8.1
         }
     ],
-    "Scifi": [
+    "scifi": [
         {
             "title": "Edge of tomorrow",
             "link": "https://www.imdb.com/title/tt1631867/?ref_=adv_li_tt",
-            "IMDB rating": "7,9"
+            "rating": 7.9
         },
         {
           "title": "Iron Man",
           "link": "https://www.imdb.com/title/tt0371746/?ref_=adv_li_tt",
-          "IMDB rating": "7,9"
+          "rating": 7.9
         }
     ],
-    "Horror": [
+    "horror": [
         {
             "title": "A quiet place",
             "link": "https://www.imdb.com/title/tt6644200/?ref_=adv_li_tt",
-            "IMDB rating": "7,5"
+            "rating": 7.5
         },
         {
             "title": "The shining",
             "link": "https://www.imdb.com/title/tt0081505/?ref_=adv_li_tt",
-            "IMDB rating": "8,4"
+            "rating": 8.4
         }
     ],
-    "Thriller": [
+    "thriller": [
         {
             "title": "The Dark Knight",
             "link": "https://www.imdb.com/title/tt0468569/?ref_=adv_li_tt",
-            "IMDB rating": "9,0"
+            "rating": 9.0
         },
         {
             "title": "Joker",
             "link": "https://www.imdb.com/title/tt7286456/?ref_=adv_li_tt",
-            "IMDB rating": "8,5"
+            "rating": 8.5
         }
     ],
-    "Romance": [
+    "romance": [
         {
             "title": "500 days of Summer",
             "link": "https://www.imdb.com/title/tt1022603/?ref_=nv_sr_srsg_0",
-            "IMDB rating": "7,7"
+            "rating": 7.7
         },
         {
             "title": "Silver linings playbook",
             "link": "https://www.imdb.com/title/tt1045658/?ref_=nv_sr_srsg_0",
-            "IMDB rating": "7,7"
+            "rating": 7.7
         }
     ]
 }

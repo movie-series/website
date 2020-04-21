@@ -6,8 +6,8 @@
   </head>
  <body>
 <h1>Movie Time</h1>
-<p>Select genre:  {{ movie }}</p>
-<p><a href="https://www.imdb.com/chart/top/?ref_=nv_mv_250">Series</a></p>
+<p>Top rated series:  {{ movie }}</p>
+<p><a href="https://www.imdb.com/chart/toptv/">Series</a></p>
 <div>Select genre:</div>
 <ul>
   <form method="POST" action="/">
@@ -23,7 +23,8 @@
 </ul>
 {{ test }}
 {% for movie in movies %}
-<p>{{movie["name"]}}</p>
+<p>{{ movie["title"]}}</p>
+<p>Rating: {{ movie["rating"]}}</p>
 <a href="{{ movie["link"]}}">IMDB</a>
 {% endfor %}
 </body> 

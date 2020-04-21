@@ -5,33 +5,29 @@ app = Flask(__name__)
 with open("movies.json", "r") as f:
     movies = load(f)
 
-print(movies["action"][0]["title"])
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == 'POST':
-        
-        print(request.form.get("action"))
-        print(request.form.get("comedy"))
-        print(request.form.get("drama"))
-        print(request.form.get("scifi"))
-        print(request.form.get("horror"))
-        print(request.form.get("thriller"))
-        print(request.form.get("romance"))
-        return render_template('index.html', movies=movies)
+        displayed = []
+        if request.form.get("action"):
+            displayed.extend(movies["action"])
+        if request.form.get("comedy"):
+            displayed.extend(movies["comedy"])
+        if request.form.get("drama"):
+            displayed.extend(movies["drama"])
+        if request.form.get("scifi"):
+            displayed.extend(movies["scifi"])
+        if request.form.get("horror"):
+            displayed.extend(movies["horror"])
+        if request.form.get("thriller"):
+            displayed.extend(movies["thriller"])
+        if request.form.get("romance"):
+            displayed.extend(movies["romance"])
+        displayed = sorted(displayed, key=lambda k: k["rating"], reverse=True)
+        return render_template('index.html', movies=displayed)
 
     return render_template('index.html')
-
-movies = [
-    {
-        "name": "Interstellar",
-        "link": "https://www.imdb.com/title/tt0816692/?ref_=nv_sr_srsg_0"
-    },
-    {
-        "name": "Gladiator",
-        "link": "https://www.imdb.com/title/tt0172495/?ref_=fn_al_tt_1"
-    }
-]
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8000, debug=True)
